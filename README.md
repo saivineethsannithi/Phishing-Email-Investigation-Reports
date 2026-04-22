@@ -163,35 +163,41 @@ No attachments present.
 ## Screenshots — Case 01
 
 ### AbuseIPDB (185.234.72.19)
-![AbuseIPDB results for 185.234.72.19](AbuseIPDB_results.png)
+<img width="577" height="463" alt="AbuseIPDB_results" src="https://github.com/user-attachments/assets/7cca4c36-d62f-41e2-9d66-e479022d4c1a" />
+
 
 > IP hosted at DeinServerHost (AS213250), Frankfurt am Main, Germany. Reported 0 times — freshly provisioned infrastructure.
 
 ---
 
 ### MXToolbox (sbi-secure-verify.in)
-![MXToolbox results for sbi-secure-verify.in](MXToolbox_results.png)
+
+<img width="932" height="364" alt="MXToolbox_results" src="https://github.com/user-attachments/assets/8ad36472-a110-4920-881f-7c6c55b244b9" />
+
 
 > 10 critical problems detected: no DNS records, no MX records, no SPF, no DMARC. The domain has zero legitimate email infrastructure — a clear sign of a throwaway phishing domain.
 
 ---
 
 ### URLScan.io (sbi-secure-verify.in — live scan)
-![URLScan.io HTTP 400 DNS error](urlscan_io.png)
+<img width="727" height="236" alt="urlscan io" src="https://github.com/user-attachments/assets/588e1e0d-7180-42ec-a942-31cdd94fa9e0" />
+
 
 > Domain could not be resolved at time of scanning — the phishing site was already offline or never properly hosted.
 
 ---
 
 ### VirusTotal (phishing URL)
-![VirusTotal results 0/91](virus_total_results.png)
+<img width="959" height="473" alt="virus_total_results" src="https://github.com/user-attachments/assets/5e36b233-1e3d-433b-b07a-ce10b68a4211" />
+
 
 > 0/91 security vendors flagged the URL. Newly registered domains frequently evade detection initially — the 0/91 score does **not** mean the URL is safe.
 
 ---
 
 ### WHOIS (alert-noreplysbi-secure-verify.in)
-![WHOIS lookup results](whois.png)
+<img width="772" height="409" alt="whois" src="https://github.com/user-attachments/assets/89bf4486-5a90-4668-9a77-b266a9b5163e" />
+
 
 > No WHOIS data found. The domain either does not exist as a registered entity or uses privacy shielding — typical of short-lived phishing infrastructure.
 
@@ -343,35 +349,40 @@ No attachments present.
 ## Screenshots — Case 02
 
 ### AbuseIPDB (91.215.41.33)
-![AbuseIPDB results for 91.215.41.33](AbuseIPDB.png)
+<img width="446" height="467" alt="AbuseIPDB" src="https://github.com/user-attachments/assets/d649346f-db43-429c-801a-d326e653cb9d" />
+
 
 > IP hosted at DDOS-GUARD LTD (AS57724), Rostov-na-Donu, Russian Federation. 0 abuse reports — freshly provisioned or recently rotated infrastructure. Use of a Russian DDoS-protection/hosting service is a significant red flag for an email claiming to be from Amazon India.
 
 ---
 
 ### MXToolbox (amazon-notifications-in.com)
-![MXToolbox results for amazon-notifications-in.com](Screenshot_2026-04-22_130055.png)
+<img width="933" height="363" alt="MXToolBox" src="https://github.com/user-attachments/assets/bc8f5273-351d-4437-8d6e-40bc038e5650" />
+
 
 > 10 critical problems: no HTTP resolution, no DMARC, no MX records, no SPF. The domain has no legitimate email infrastructure configured — consistent with a throwaway phishing domain.
 
 ---
 
 ### URLScan.io (amazon-notifications-in.com — live scan)
-![URLScan.io HTTP 400 DNS error](urlscan.png)
+<img width="779" height="269" alt="urlscan" src="https://github.com/user-attachments/assets/451edec6-3e4e-4665-9032-a54f877eef20" />
+
 
 > DNS resolution failed — the domain `amazon-notifications-in.com` could not be resolved at time of scanning. The phishing site was offline at time of analysis.
 
 ---
 
 ### VirusTotal (phishing URL)
-![VirusTotal 0/91](virustotal.png)
+<img width="944" height="440" alt="virustotal" src="https://github.com/user-attachments/assets/a469773d-a82c-44cf-8bd4-6bf40951975b" />
+
 
 > 0/91 vendors flagged the URL `https://amazon-notifications-in.com/verify-payment?order=4028834921`. As with Case 01, a clean VirusTotal result on a newly registered look-alike domain is **not** an indicator of safety.
 
 ---
 
 ### WHOIS (IP 91.215.41.33)
-![WHOIS IP lookup](who_is.png)
+<img width="377" height="373" alt="who is" src="https://github.com/user-attachments/assets/412db72a-0dc0-4b30-96e4-ba31a9ac4da0" />
+
 
 > IP WHOIS returns RIPE NCC block allocation data (91.0.0.0/8, RegDate 2005-06-30, NL). The actual hosting assignment is DDOS-GUARD LTD in Russia per AbuseIPDB — RIPE data reflects the regional registry, not the current operator.
 
@@ -527,35 +538,40 @@ No attachments present.
 ## Screenshots — Case 03
 
 ### AbuseIPDB (103.74.19.88)
-![AbuseIPDB results for 103.74.19.88](abuseIPDB.png)
+<img width="452" height="457" alt="abuseIPDB" src="https://github.com/user-attachments/assets/6d0e782a-1838-4bc9-96f0-0ec42c68f444" />
+
 
 > IP hosted at Zess Networks Private Limited (AS133720), Karjat, Maharashtra, India. 0 abuse reports — clean record, but this is a Fixed Line ISP IP being used to send phishing email, which is suspicious. Domestic Indian hosting makes this attack harder to detect via geographic anomaly.
 
 ---
 
 ### MXToolbox (incometax-gov-refund.in)
-![MXToolbox results for incometax-gov-refund.in](mxtoolbox.png)
+<img width="941" height="370" alt="mxtoolbox" src="https://github.com/user-attachments/assets/19f43839-c054-4bfe-be4a-71226d801772" />
+
 
 > 10 critical problems: no DNS, no DMARC, no MX, no SPF. Identical failure pattern to Cases 01 and 02 — the domain has no legitimate email infrastructure despite appearing to be an official government domain.
 
 ---
 
 ### URLScan.io (incometax-gov-refund.in — live scan)
-![URLScan.io HTTP 400 DNS error](urlscan.png)
+<img width="698" height="194" alt="urlscan" src="https://github.com/user-attachments/assets/0d00464a-bf97-4681-979e-e3328ce10b93" />
+
 
 > DNS resolution failed — `incometax-gov-refund.in` could not be resolved. The phishing site was offline or not properly hosted at time of scanning.
 
 ---
 
 ### VirusTotal (phishing URL)
-![VirusTotal 0/91](virustotal.png)
+<img width="959" height="476" alt="virustotal" src="https://github.com/user-attachments/assets/61699ef5-7c26-46cb-83d0-2c1c584e70de" />
+
 
 > 0/91 vendors flagged the URL `https://incometax-gov-refund.in/refund/verify-bank?pan=BNZPS2841K`. As with the previous cases, a clean VirusTotal result on a newly created look-alike domain must not be interpreted as safe.
 
 ---
 
 ### WHOIS (IP 103.74.19.88)
-![WHOIS IP lookup](whois.png)
+<img width="335" height="380" alt="whois" src="https://github.com/user-attachments/assets/8e9961b5-5f5d-4ef1-a07d-c86e47218d8f" />
+
 
 > IP WHOIS returns APNIC block allocation (103.0.0.0/8, RegDate 2011-01-09, Australia). Actual operator per AbuseIPDB is Zess Networks Private Limited in Maharashtra, India — the APNIC data reflects the regional registry, not the current network operator.
 
@@ -711,14 +727,16 @@ No attachments present.
 ## Screenshots — Case 04
 
 ### AbuseIPDB (178.62.105.44)
-![AbuseIPDB results for 178.62.105.44](screenshots/case-04/abuseipdb.png)
+<img width="448" height="431" alt="AbusePDB" src="https://github.com/user-attachments/assets/c083bd18-8518-47bb-87cb-14bb441ec856" />
+
 
 > IP hosted at DigitalOcean London (AS14061), United Kingdom. **Reported 5 times** — unlike the previous cases' freshly provisioned hosts, this IP has prior abuse history, indicating the attacker is reusing rented infrastructure.
 
 ---
 
 ### MXToolbox (whatsapp-renew-service.com)
-![MXToolbox results for whatsapp-renew-service.com](screenshots/case-04/mxtoolbox.png)
+<img width="941" height="363" alt="MXtoolbox" src="https://github.com/user-attachments/assets/fc4f37c6-8deb-414c-afd5-76eff8e88302" />
+
 
 > 10 critical problems: no HTTP resolution, no DNS records, no MX, no SPF, no DMARC. Consistent with the pattern across all cases — a disposable domain with no legitimate mail infrastructure.
 
@@ -731,14 +749,17 @@ No attachments present.
 ---
 
 ### VirusTotal — URL Scan
-![VirusTotal URL scan 0/91](screenshots/case-04/virustotal-url.png)
+<img width="959" height="479" alt="virustotal_Domain" src="https://github.com/user-attachments/assets/4e3dc59c-fd33-480c-8d5e-e9b2de0919a3" />
+
 
 > 0/91 vendors flagged the URL `https://whatsapp-renew-service.com/renew?phone=919876543210`. The URL itself evaded detection, but see the IP scan below for more signal.
 
 ---
 
 ### VirusTotal — IP Scan (178.62.105.44)
-![VirusTotal IP scan 2/94 Malicious](screenshots/case-04/virustotal-ip.png)
+
+<img width="947" height="471" alt="Virus_IP" src="https://github.com/user-attachments/assets/74621535-34fe-48fa-9627-b2f4dd8f777d" />
+
 
 > **2/94 vendors (Criminal IP and SOCRadar) flagged the IP as malicious.** This is the first case in the series where external threat intelligence has positive hits — the DigitalOcean IP has been reused across multiple campaigns long enough to accumulate reputation data.
 
@@ -901,21 +922,24 @@ No attachments present.
 ## Screenshots — Case 05
 
 ### AbuseIPDB (45.33.92.117)
-![AbuseIPDB results for 45.33.92.117](screenshots/case-05/abuseipdb.png)
+<img width="452" height="454" alt="abusePDb" src="https://github.com/user-attachments/assets/b269e418-d34d-411a-b06d-d255569a868d" />
+
 
 > IP hosted at Linode (AS63949), Cedar Knolls, New Jersey, USA. 0 abuse reports — freshly provisioned Linode VPS, no prior reputation data. Use of US hosting to impersonate an Indian bank is a clear geographic anomaly.
 
 ---
 
 ### MXToolbox (hdfc-bankalerts-secure.in)
-![MXToolbox results for hdfc-bankalerts-secure.in](screenshots/case-05/mxtoolbox.png)
+<img width="944" height="377" alt="MXtoolbox" src="https://github.com/user-attachments/assets/b976a949-1414-400b-a1c9-39fd38688563" />
+
 
 > 10 critical problems: no HTTP, no DMARC, no SPF, no MX, no DNS. The fake HDFC domain has zero legitimate email infrastructure — confirming it exists solely for phishing.
 
 ---
 
 ### URLScan.io (hdfc-bankalerts-secure.in — search)
-![URLScan.io search for hdfc-bankalerts-secure.in](screenshots/case-05/urlscan.png)
+<img width="693" height="217" alt="URLscan" src="https://github.com/user-attachments/assets/4cd52298-62a5-4d9d-8ecf-2ff7204c0068" />
+
 
 > URLScan community search returned zero results for `hdfc-bankalerts-secure.in` — the domain has no public scan history. A live scan of the phishing URL returned HTTP 400 (DNS Error - Could not resolve domain), confirming the site is offline or not hosted at DNS resolution time.
 
